@@ -6,7 +6,6 @@ import image_3 from '../assets/pictures/evaluation.jpg';
 export function About() {
   return (
     <section id='about' className={styles.aboutContainer}>
-      <h1>About</h1>
       <div className="container text-center">
         <div className="row row-cols-3">
           <div className="col">
