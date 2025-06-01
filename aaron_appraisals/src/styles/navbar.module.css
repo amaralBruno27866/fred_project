@@ -1,7 +1,16 @@
+.navbarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: var(--color-1);
+}
+
 .navbar {
   width: 75rem;
   background: transparent !important;
   box-shadow: none !important;
   border: none !important;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }

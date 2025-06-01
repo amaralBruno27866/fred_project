@@ -1,0 +1,11 @@
+.homeContainer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 75rem;
+  height: 100vh;
+  background: transparent;
+}
+
+.homeContainer h1 {
+  background: transparent;
+}
