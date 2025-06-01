@@ -5,7 +5,7 @@
   --color-2: #003cff;
   --color-3: #0040ca;
   --color-4: #00388d;
-  --color-5: #00aac0;
+  --color-5: #24e1fa;
   --confirm: #00c070;
   --cancel: #cf5252;
   --alert: #beeb56;
@@ -20,7 +20,7 @@
   outline: none;
   border: none;
   box-sizing: border-box;
-  background: var(--color-1); /* Page background color */
+  background: transparent; /* Page background color */
   color: var(--color-5); /* Text color */
 }
 
