@@ -2,7 +2,7 @@
 
 :root{
   --color-1: #f7faff;
-  --color-2: #003cff;
+  --color-2: #6b8bf3;
   --color-3: #0040ca;
   --color-4: #00388d;
   --color-5: #24e1fa;
@@ -21,7 +21,6 @@
   border: none;
   box-sizing: border-box;
   background: transparent; /* Page background color */
-  color: var(--color-5); /* Text color */
 }
 
 a{

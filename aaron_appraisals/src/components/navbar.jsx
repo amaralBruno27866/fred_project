@@ -20,16 +20,16 @@ export function Navbar() {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link" href="#Home">Home</a>
+                  <a className="nav-link" href="#home">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#About">About</a>
+                  <a className="nav-link" href="#about">About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Properties">Properties</a>
+                  <a className="nav-link" href="#properties">Properties</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Testimonials">Testimonials</a>
+                  <a className="nav-link" href="#testimonials">Testimonials</a>
                 </li>
                 <li className="nav-item ms-3">
                   <a className="btn btn-primary" href="#contact-form">Contact</a>
