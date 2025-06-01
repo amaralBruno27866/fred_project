@@ -10,7 +10,7 @@ export function Navbar() {
           <div className="container-fluid">
             {/* Brand logo and name */}
             <a className="navbar-brand d-flex align-items-center" href="#">          
-              <span>FJK Real Estate LTD. Brokerage</span>
+              <span className={styles.title}>FJK Real Estate LTD. Brokerage</span>
             </a>
             {/* Toggler button for mobile view */}
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
