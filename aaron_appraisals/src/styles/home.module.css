@@ -1,11 +1,10 @@
-/* Main container for the home section */
+
 .home {
   position: relative;
   padding-top: 2rem;
   overflow: hidden;
 }
 
-/* Content container styling */
 .content {
   padding-left: 2rem;
   padding-bottom: 2rem;
@@ -33,18 +32,17 @@
   -webkit-text-stroke: 1px var(--color-5);
 }
 
-/* Paragraph styling within content */
 .content p {
   margin-bottom: 2rem;
   position: relative;
 }
 
-/* Image container styling */
 .image {
   position: relative;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
   padding-right: 2rem;
   z-index: 1;
 }
@@ -58,4 +56,10 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   margin: auto;
   display: block;
+}
+
+.image p {
+  color: var(--color-5);
+  margin-top: 0.5rem;
+  text-align: center;
 }

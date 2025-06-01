@@ -25,6 +25,9 @@ export function Home() {
         <div className="col-md-6">
           <div className={styles.image}>
             <img src={image} alt="programmer" className="img-fluid" />
+            <p>
+              Office: 416.480.9162
+            </p>
           </div>
         </div>
       </div>
