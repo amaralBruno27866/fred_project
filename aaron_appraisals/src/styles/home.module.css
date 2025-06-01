@@ -10,9 +10,8 @@
   padding-left: 2rem;
   padding-bottom: 2rem;
   z-index: 1;
+  color: var(--color-5);
 }
-
-
 
 .content h4 {
   margin-bottom: 1rem;
@@ -51,7 +50,12 @@
 }
 
 .image img {
-  width: 100%;
-  max-width: 28.125rem;
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1rem solid var(--color-5);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   margin: auto;
+  display: block;
 }
