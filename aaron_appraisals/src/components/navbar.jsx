@@ -32,7 +32,7 @@ export function Navbar() {
                   <a className="nav-link" href="#testimonials">Testimonials</a>
                 </li>
                 <li className="nav-item ms-3">
-                  <a className="btn btn-primary" href="#contact-form">Contact</a>
+                  <a className="btn btn-primary" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>

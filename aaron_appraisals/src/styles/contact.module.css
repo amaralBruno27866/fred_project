@@ -1,0 +1,131 @@
+.contactContainer {
+  padding: 2.5rem 1rem;
+  max-width: 77rem;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.contactHeader {
+  margin-bottom: 2rem;
+}
+
+.contactHeader h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #2d3a4a;
+}
+
+.contactHeader p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formGroup label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #2d3a4a;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: #f9f9f9;
+  transition: border 0.2s;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border: 1.5px solid #4f8cff;
+  outline: none;
+  background: #fff;
+}
+
+.submitButton {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  padding: 0.9rem 2.2rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submitButton:hover {
+  background: #2563eb;
+}
+
+.successMessage {
+  background: #e6ffed;
+  color: #217a3c;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  border: 1px solid #b7ebc6;
+  text-align: center;
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.imageBox {
+  flex: 1 1 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 220px;
+}
+
+.contactImage {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.formBox {
+  flex: 1 1 320px;
+  min-width: 260px;
+}
+
+@media (max-width: 900px) {
+  .contentWrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .imageBox, .formBox {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .contactImage {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+}

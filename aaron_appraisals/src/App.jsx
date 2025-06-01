@@ -3,6 +3,7 @@ import { Home } from '../src/components/home.jsx';
 import { About } from '../src/components/about.jsx';
 import { Properties } from './components/properties.jsx';
 import { Testimonials } from './components/testimonials.jsx';
+import { Contact } from './components/contact.jsx';
 import video from '../src/assets/videos/toronto2.mp4'
 import styles from './app.module.css';
 
@@ -24,6 +25,9 @@ export function App() {
       </div>
       <div className={styles.testimonialsContainer}>
         <Testimonials />
+      </div>
+      <div className={styles.contactContainer}>
+        <Contact />
       </div>
     </div>
   )
