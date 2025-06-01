@@ -1,5 +1,10 @@
+import { Navbar } from '../src/components/navbar.jsx';
+import styles from './app.module.css';
+
 export function App() {
   return (
-    <h1>Test</h1>
+    <div className={styles.mainContainer}>
+      <Navbar />
+    </div>
   )
 }
