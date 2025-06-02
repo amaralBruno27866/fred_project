@@ -2,16 +2,16 @@
 
 :root{
   --color-1: #f7faff;
-  --color-2: #6b8bf3;
+  --color-2: #4670fc;
   --color-3: #0040ca;
   --color-4: #00388d;
   --color-5: #24e1fa;
   --confirm: #00c070;
   --cancel: #cf5252;
   --alert: #beeb56;
-  --black: #000000;
+  --black: #3d3d3d;
   --white: #ffffff;
-  --gray: #818181;
+  --gray: #c0c0c0;
 }
 
 *{

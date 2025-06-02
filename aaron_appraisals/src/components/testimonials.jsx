@@ -9,31 +9,31 @@ export function Testimonials() {
       rating: 5
     },
     {
-      name: "John Brown",
+      name: "John B.",
       text: "Fast and professional support.",
       photo: "https://randomuser.me/api/portraits/men/32.jpg",
       rating: 4
     },
     {
-      name: "Anna Johnson",
+      name: "Anna J.",
       text: "I was very satisfied with the property appraisal.",
       photo: "https://randomuser.me/api/portraits/women/65.jpg",
       rating: 5
     },
     {
-      name: "Charles Lee",
+      name: "Charles L.",
       text: "Very competent and attentive team.",
       photo: "https://randomuser.me/api/portraits/men/76.jpg",
       rating: 4
     },
     {
-      name: "Emily Davis",
+      name: "Emily D.",
       text: "The process was smooth and transparent. Great experience!",
       photo: "https://randomuser.me/api/portraits/women/68.jpg",
       rating: 5
     },
     {
-      name: "Michael Clark",
+      name: "Michael C.",
       text: "Quick response and detailed appraisal report.",
       photo: "https://randomuser.me/api/portraits/men/85.jpg",
       rating: 4

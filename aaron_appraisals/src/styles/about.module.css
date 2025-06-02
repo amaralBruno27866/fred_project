@@ -6,7 +6,7 @@
 }
 
 .card {
-  background: var(--white);
+  background: var(--gray);
   color: var(--color-3);
   border-radius: 1rem;
   box-shadow: 0 4px 16px rgba(0,0,0,0.08);
@@ -28,6 +28,7 @@
 }
 
 .card h2 {
+  color: var(--color-2);
   margin: 0.5rem 0 1rem 0;
   font-size: 1.5rem;
 }
@@ -35,7 +36,7 @@
 .card p {
   font-size: 1rem;
   text-align: center;
-  color: var(--color-3);
+  color: var(--black);
 }
 
 .card:hover {

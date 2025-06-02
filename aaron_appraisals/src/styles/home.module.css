@@ -8,7 +8,7 @@
   padding-left: 2rem;
   padding-bottom: 2rem;
   z-index: 1;
-  color: var(--color-5);
+  color: var(--white);
 }
 
 .content h4 {
@@ -28,7 +28,7 @@
 
 .content h1 span {
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px var(--color-5);
+  -webkit-text-stroke: 1px var(--white);
 }
 
 .content p {
@@ -51,14 +51,14 @@
   height: 30rem;
   object-fit: cover;
   border-radius: 50%;
-  border: 1rem solid var(--color-5);
+  border: 1rem solid var(--color-4);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   margin: auto;
   display: block;
 }
 
 .image p {
-  color: var(--color-5);
+  color: var(--white);
   margin-top: 0.5rem;
   text-align: center;
 }

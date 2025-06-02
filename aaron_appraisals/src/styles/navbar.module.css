@@ -3,12 +3,13 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: var(--color-1);
+  background: var(--color-4);
   position: fixed;    
   top: 0;               
   left: 0;
   z-index: 1000;        
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04); 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border-bottom: 1px solid var(--color-1);
 }
 
 .navbar {
@@ -21,7 +22,34 @@
 }
 
 .title {
-  color: var(--color-4);
+  color: var(--color-1);
   font-weight: 700;
   font-size: 2rem;
+}
+
+.navbar :global(.nav-link) {
+  color: #f5f5f5 !important;         /* Cor clara para os links */
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar :global(.nav-link):hover,
+.navbar :global(.nav-link):focus {
+  color: #4f8cff !important;         /* Cor de destaque no hover */
+  text-decoration: underline;
+  background: none;
+}
+
+.navbar :global(.btn-primary) {
+  background: #4f8cff;
+  border: none;
+  color: #fff !important;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.navbar :global(.btn-primary):hover,
+.navbar :global(.btn-primary):focus {
+  background: #2563eb;
+  color: #fff !important;
 }
