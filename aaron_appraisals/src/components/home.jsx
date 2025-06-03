@@ -9,23 +9,22 @@ export function Home() {
         <div className="col-md-6">
           <div className={styles.content}>
             <h4>WELCOME TO FJK REAL ESTATE LTD. BROKERAGE</h4>
-            <h1>Hi, I'm <span>Fred</span>, Real Estate Broker</h1>
+            <h1>Hi, I'm <span>Fred Klonowski</span>, Real Estate Broker of Record</h1>
             <p>
               FJK Real Estate LTD. Brokerage is an agency based out of Toronto, 
               Ontario.  We specialize in real estate in Toronto and into the 
-              Greater Toronto Area.  As a real estate broker, owner and Broker of 
+              Greater Toronto Area.  As an owner and Broker of 
               Record Fred Klonowski, has sold homes and land for over twenty 
               years negotiating deals for his clients. Whether you are a buyer 
               or a seller, please contact FJK Real Estate for their expertise.
             </p>
-            <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
         {/* Right column with an image */}
         <div className="col-md-6">
           <div className={styles.image}>
             <img src={image} alt="programmer" className="img-fluid" />
-            <p>
+            <p className={styles.contactInfo}>
               Office: 416.480.9162
             </p>
           </div>

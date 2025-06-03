@@ -3,7 +3,7 @@ import styles from '../styles/testimonials.module.css';
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Mary Smith",
+      name: "Mary S.",
       text: "Excellent service! I highly recommend it.",
       photo: "https://randomuser.me/api/portraits/women/44.jpg",
       rating: 5
@@ -16,13 +16,13 @@ export function Testimonials() {
     },
     {
       name: "Anna J.",
-      text: "I was very satisfied with the property appraisal.",
+      text: "I was very satisfied with the property purchase.",
       photo: "https://randomuser.me/api/portraits/women/65.jpg",
       rating: 5
     },
     {
       name: "Charles L.",
-      text: "Very competent and attentive team.",
+      text: "Very competent and attentive professional.",
       photo: "https://randomuser.me/api/portraits/men/76.jpg",
       rating: 4
     },
@@ -34,7 +34,7 @@ export function Testimonials() {
     },
     {
       name: "Michael C.",
-      text: "Quick response and detailed appraisal report.",
+      text: "Quick response and knowlegable advice.",
       photo: "https://randomuser.me/api/portraits/men/85.jpg",
       rating: 4
     }

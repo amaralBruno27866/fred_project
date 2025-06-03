@@ -32,7 +32,7 @@ export function About() {
                 Toronto Area. I truly love our city and pride myself on my knowledge 
                 of current listings, school districts, Neighborhood information, 
                 and everything related to buying and selling a home here in Toronto.
-                I add value to both side of a Real Estate transaction. Simply 
+                I add value to both sides of a Real Estate transaction. Simply 
                 said, if you are in the market to buy or sell a home, I put my 
                 25 years of real estate expertise to work for you.
 
