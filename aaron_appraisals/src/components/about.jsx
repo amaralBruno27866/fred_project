@@ -13,10 +13,10 @@ export function About() {
               <img src={image_1} alt="" />
               <h2>Who we are?</h2>
               <p>
-                FJK Real Estate LTD. Brokerage is an agency based out of Toronto, 
+                FJK Real Estate LTD., Brokerage is an agency based out of Toronto, 
                 Ontario.  We specialize in real estate in Toronto and into the 
                 Greater Toronto Area. As a real estate agent, owner and Broker of 
-                Record Fred Klonowski, has sold homes and land for twenty five 
+                Record, Fred Klonowski, has sold homes and land for twenty five 
                 years negotiating deals for his clients. Whether you are a buyer 
                 or a seller, please contact FJK Real Estate for their expertise.
               </p>
@@ -30,7 +30,7 @@ export function About() {
                 I am a licensed Realtor and specialize in representing buyers and 
                 sellers in the purchase and sale residences within The Greater 
                 Toronto Area. I truly love our city and pride myself on my knowledge 
-                of current listings, school districts, Neighborhood information, 
+                of current listings, school districts, neighborhood information, 
                 and everything related to buying and selling a home here in Toronto.
                 I add value to both sides of a Real Estate transaction. Simply 
                 said, if you are in the market to buy or sell a home, I put my 

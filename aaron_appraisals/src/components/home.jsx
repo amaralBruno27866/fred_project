@@ -8,10 +8,10 @@ export function Home() {
         {/* Left column with text content */}
         <div className="col-md-6">
           <div className={styles.content}>
-            <h4>WELCOME TO FJK REAL ESTATE LTD. BROKERAGE</h4>
-            <h1>Hi, I'm <span>Fred Klonowski</span>, Real Estate Broker of Record</h1>
+            <h4>WELCOME TO FJK REAL ESTATE LTD., Brokerage</h4>
+            <h1>Hi, I'm <span>Fred Klonowski</span>, Broker of Record</h1>
             <p>
-              FJK Real Estate LTD. Brokerage is an agency based out of Toronto, 
+              FJK Real Estate LTD., Brokerage is an agency based out of Toronto, 
               Ontario.  We specialize in real estate in Toronto and into the 
               Greater Toronto Area.  As an owner and Broker of 
               Record Fred Klonowski, has sold homes and land for over twenty 
