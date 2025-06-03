@@ -1,5 +1,5 @@
 import styles from '../styles/contact.module.css';
-import image from '../assets/pictures/fred_2.png';
+import image from '../assets/pictures/fred_3.jpeg';
 
 export function Contact() {
   return(

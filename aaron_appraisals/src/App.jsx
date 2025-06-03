@@ -1,8 +1,8 @@
 import { Navbar } from '../src/components/navbar.jsx';
 import { Home } from '../src/components/home.jsx';
 import { About } from '../src/components/about.jsx';
-import { Properties } from './components/properties.jsx';
-import { Testimonials } from './components/testimonials.jsx';
+// import { Properties } from './components/properties.jsx';
+// import { Testimonials } from './components/testimonials.jsx';
 import { Contact } from './components/contact.jsx';
 import { Footer } from './components/footer.jsx';
 import video from '../src/assets/videos/toronto2.mp4'
@@ -21,12 +21,17 @@ export function App() {
       <div className={styles.aboutContainer}>
         <About />
       </div>
+      
+      {/*
       <div className={styles.propertiesContainer}>
         <Properties />
       </div>
+
       <div className={styles.testimonialsContainer}>
         <Testimonials />
       </div>
+      */}
+
       <div className={styles.contactContainer}>
         <Contact />
       </div>

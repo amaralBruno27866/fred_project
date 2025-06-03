@@ -1,6 +1,6 @@
 import styles from '../styles/about.module.css';
 import image_1 from '../assets/pictures/selling.jpg';
-import image_2 from '../assets/pictures/fred_2.png';
+import image_2 from '../assets/pictures/fred_3.jpeg';
 import image_3 from '../assets/pictures/evaluation.jpg';
 
 export function About() {

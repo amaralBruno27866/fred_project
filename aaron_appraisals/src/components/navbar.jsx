@@ -22,12 +22,16 @@ export function Navbar() {
                 <li className="nav-item">
                   <a className="nav-link" href="#about">About</a>
                 </li>
+
+                {/* 
                 <li className="nav-item">
                   <a className="nav-link" href="#properties">Properties</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#testimonials">Testimonials</a>
                 </li>
+                */}
+                
                 <li className="nav-item ms-3">
                   <a className="btn btn-primary" href="#contact">Contact</a>
                 </li>
