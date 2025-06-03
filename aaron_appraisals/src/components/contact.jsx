@@ -1,5 +1,6 @@
 import styles from '../styles/contact.module.css';
 import image from '../assets/pictures/fred_3.jpeg';
+import logo from '../assets/pictures/fjk_logo.png';
 
 export function Contact() {
   return(
@@ -25,7 +26,11 @@ export function Contact() {
           </div>
         </div>
         <div className={styles.formBox}>
-           
+          <img
+            src={logo}
+            alt="FJK Realty Logo"
+            className={styles.torontoImage}
+          />
         </div>
       </div>
     </section>

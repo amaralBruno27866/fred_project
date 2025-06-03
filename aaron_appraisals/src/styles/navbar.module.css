@@ -12,6 +12,18 @@
   border-bottom: 1px solid var(--color-1);
 }
 
+.logo {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #fff;
+  padding: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  object-fit: contain;
+}
+
 .navbar {
   width: 75rem;
   background: transparent !important;

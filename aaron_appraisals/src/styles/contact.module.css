@@ -115,6 +115,14 @@
   min-width: 260px;
 }
 
+.torontoImage {
+  width: 100%;
+  max-width: 350px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
 @media (max-width: 900px) {
   .contentWrapper {
     flex-direction: column;
