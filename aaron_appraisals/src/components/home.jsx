@@ -1,5 +1,5 @@
 import styles from '../styles/home.module.css';
-import image from '../assets/pictures/fred_3.jpeg';
+import image from '../assets/pictures/fred_3.JPEG';
 
 export function Home() {
   return (
