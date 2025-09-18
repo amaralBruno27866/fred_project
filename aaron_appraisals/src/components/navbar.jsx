@@ -17,7 +17,7 @@ export function Navbar() {
                 style={{ margin: '0 1.5rem', height: '48px', width: 'auto' }}
               />
             <div className="d-flex align-items-center">
-              <span className={styles.title}>FJK Real Estate LTD. Brokerage</span>
+              <span className={styles.title} >FJK Real Estate LTD. Brokerage</span>
             </div>
             {/* Toggler button for mobile view */}
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,6 +26,9 @@ export function Navbar() {
             {/* Navigation links */}
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link" href="/">Home</a>
+                </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#about">About</a>
                 </li>

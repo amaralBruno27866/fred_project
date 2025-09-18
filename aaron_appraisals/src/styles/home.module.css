@@ -1,6 +1,6 @@
-.home {
+ .home {
   position: relative;
-  padding-top: 2rem;
+  padding-top: 6rem; /* Espaço para o navbar fixo, ajuste conforme necessário */
   overflow: hidden;
 }
 
