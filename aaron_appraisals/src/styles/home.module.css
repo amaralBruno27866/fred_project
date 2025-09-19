@@ -1,3 +1,89 @@
+/* Home section styles - responsive hero */
+.home {
+  position: relative;
+  padding-top: 6rem; /* space for fixed navbar */
+  overflow: hidden;
+}
+
+.home :global(.container) {
+  position: relative;
+  z-index: 1;
+}
+
+.content {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  color: var(--white);
+}
+
+.content h4 {
+  margin-bottom: 1rem;
+  color: var(--highlight-100);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.content h1 {
+  color: var(--highlight-200);
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.content h1 span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--white);
+}
+
+.content p {
+  margin-bottom: 1.25rem;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1rem solid var(--color-4);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.contactInfo {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Responsive rules */
+@media (max-width: 992px) {
+  .content h1 { font-size: clamp(2rem, 4.5vw, 2.4rem); }
+  .image img { width: clamp(18rem, 30vw, 24rem); height: clamp(18rem, 30vw, 24rem); }
+}
+
+@media (max-width: 768px) {
+  .home { padding-top: 5.2rem; min-height: calc(100vh - 5.2rem); }
+  .home :global(.row) { display:flex; flex-direction: column-reverse; align-items:center; gap:1.25rem; }
+  .home :global(.row) > :global(.col-md-6) { width:100%; }
+  .content { padding: 0 1rem; text-align:center; }
+  .content h1 { font-size: clamp(1.5rem, 6.5vw, 2rem); }
+  .image img { width: clamp(12rem, 40vw, 18rem); height: clamp(12rem, 40vw, 18rem); border-width: 0.9rem; }
+  .contactInfo { font-size: clamp(1rem, 4vw, 1.3rem); }
+  /* background video should cover - target by tag inside .home */
+  .home :global(video) { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0; }
+}
+
+@media (max-width: 420px) {
+  .image img { width: clamp(10rem, 50vw, 14rem); height: clamp(10rem, 50vw, 14rem); }
+  .content h1 { font-size: clamp(1.2rem, 7.5vw, 1.6rem); }
+  .contactInfo { font-size: 1.05rem; }
+}
  .home {
   position: relative;
   padding-top: 6rem; /* Espaço para o navbar fixo, ajuste conforme necessário */

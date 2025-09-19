@@ -1,68 +1,71 @@
-.navbarContainer {
+/* Navbar: logo left, title center, links right (desktop); responsive collapse on mobile */
+.navbarContainer{
+  width:100%;
+  background:var(--color-4);
+  position:fixed; top:0; left:0; z-index:1100;
+  box-shadow:0 2px 8px rgba(0,0,0,0.04);
+  border-bottom:1px solid rgba(255,255,255,0.06);
+}
+
+.navbar{
+  max-width:1300px;
+  margin:0 auto;
+  padding:0.5rem 1rem;
+}
+
+/* make the bootstrap container inside nav use flex layout */
+.navbar :global(.container-fluid){
+  display:flex; align-items:center; gap:0.5rem; width:100%;
+}
+
+.logo{ height:48px; width:48px; border-radius:50%; background:#fff; padding:6px; box-shadow:0 2px 8px rgba(0,0,0,0.08); object-fit:contain; }
+
+/* Title centered via flex: center column */
+.title{ color:var(--color-1); font-weight:700; font-size:clamp(1rem,2.5vw,1.6rem); flex:1; text-align:center; }
+
+/* ensure collapse sits to the right */
+.navbar :global(.navbar-collapse){ margin-left:auto; }
+.navbar :global(.navbar-nav){ display:flex; gap:0.75rem; align-items:center; }
+.navbar :global(.nav-link){ color:#f5f5f5 !important; padding:0.4rem 0.6rem; }
+.navbar :global(.btn-primary){ background:#4f8cff; border:none; color:#fff !important; }
+
+/* Desktop: hide toggler (Bootstrap will still render but hide icon by default) */
+.navbar :global(.navbar-toggler){ display:none; }
+
+/* Mobile adjustments */
+@media (max-width:768px){
+  .logo{ height:40px; width:40px; }
+  .title{ position:absolute; left:50%; transform:translateX(-50%); top:50%; transform:translate(-50%,-50%); max-width:60%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:clamp(0.95rem,4vw,1.1rem); }
+  .navbar :global(.navbar-toggler){ display:block; border:none; background:transparent; }
+  .navbar :global(.nav-link){ padding:0.6rem 0.8rem; }
+  .navbar :global(.navbar-collapse){ position:absolute; left:0; right:0; top:100%; background:var(--color-4); padding:0.5rem 0.75rem; }
+  .navbar :global(.navbar-nav){ flex-direction:column; align-items:center; }
+  .navbar :global(.navbar-toggler-icon){ background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+}
+
+@media (max-width:420px){ .logo{height:36px;width:36px;} .title{font-size:clamp(0.9rem,5vw,1rem);} }
+
+/* Helper classes for left, center, right alignment */
+.left-area {
+  display: flex;
+  align-items: center;
+}
+
+.center-area {
+  flex: 1 1 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  background: var(--color-4);
-  position: fixed;    
-  top: 0;               
-  left: 0;
-  z-index: 1000;        
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-  border-bottom: 1px solid var(--color-1);
+  pointer-events: none; /* allow clicks pass through to toggler on small screens */
 }
 
-.logo {
-  height: 48px;
-  width: 48px;
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 50%;
-  background: #fff;
-  padding: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  object-fit: contain;
+.center-area .title {
+  pointer-events: auto;
 }
 
-.navbar {
-  width: 75rem;
-  max-width: calc(100% - 2rem);
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.right-area {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.title {
-  color: var(--color-1);
-  font-weight: 700;
-  font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
-}
-
-.navbar :global(.nav-link) {
-  color: #f5f5f5 !important;         /* Cor clara para os links */
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-.navbar :global(.nav-link):hover,
-.navbar :global(.nav-link):focus {
-  color: #4f8cff !important;         /* Cor de destaque no hover */
-  text-decoration: underline;
-  background: none;
-}
-
-.navbar :global(.btn-primary) {
-  background: #4f8cff;
-  border: none;
-  color: #fff !important;
-  font-weight: 600;
-  transition: background 0.2s;
-}
-
-.navbar :global(.btn-primary):hover,
-.navbar :global(.btn-primary):focus {
-  background: #2563eb;
-  color: #fff !important;
-}
