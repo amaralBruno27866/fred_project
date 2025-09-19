@@ -122,18 +122,3 @@
   margin: 0 auto;
   display: block;
 }
-
-@media (max-width: 900px) {
-  .contentWrapper {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .imageBox, .formBox {
-    min-width: 0;
-    max-width: 100%;
-  }
-  .contactImage {
-    max-width: 100%;
-    margin-bottom: 2rem;
-  }
-}
