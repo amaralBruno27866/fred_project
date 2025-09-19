@@ -14,7 +14,7 @@ export function Home() {
               FJK Real Estate LTD., Brokerage is an agency based out of Toronto, 
               Ontario.  We specialize in real estate in Toronto and into the 
               Greater Toronto Area.  As an owner and Broker of 
-              Record Fred Klonowski, has sold homes and land for over twenty 
+              Record Fred Klonowski, has sold homes and land for over twenty five
               years negotiating deals for his clients. Whether you are a buyer 
               or a seller, please contact FJK Real Estate for their expertise.
             </p>

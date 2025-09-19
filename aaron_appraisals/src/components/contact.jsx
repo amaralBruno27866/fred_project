@@ -21,6 +21,7 @@ export function Contact() {
           />
           <div className={styles.infoText}>
             <h2>Fred Klonowski</h2>
+            <p>Broker of Record</p>
             <p>Office: 416.480.9162</p>
             <p>Email: fjk@bell.net</p>
           </div>
