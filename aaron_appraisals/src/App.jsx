@@ -3,7 +3,7 @@ import { Home } from '../src/components/home.jsx';
 import { About } from '../src/components/about.jsx';
 import { Contact } from './components/contact.jsx';
 import { Footer } from './components/footer.jsx';
-import video from '../src/assets/videos/toronto2.mp4'
+import toronto from '../src/assets/pictures/toronto.jpg'
 import styles from './app.module.css';
 
 export function App() {
@@ -11,9 +11,12 @@ export function App() {
     <div className={styles.mainContainer}>
       <Navbar />
       <div className={styles.homeContainer}>
-        <video autoPlay loop muted playsInline className={styles.backgroundVideo}>
-          <source src={video} type="video/mp4" />
-        </video>
+        <div
+          className={styles.backgroundImage}
+          role="img"
+          aria-label="Toronto skyline background"
+          style={{ backgroundImage: `url(${toronto})` }}
+        />
         <Home />
       </div>
       <div className={styles.aboutContainer}>
