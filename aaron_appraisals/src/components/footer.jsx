@@ -1,3 +1,4 @@
+// Simple footer: uses current year dynamically. Keep small and presentational.
 import styles from '../styles/footer.module.css';
 
 export function Footer() {

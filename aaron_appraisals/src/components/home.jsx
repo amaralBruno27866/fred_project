@@ -1,11 +1,13 @@
+// Home / Hero section: presentational. Uses Bootstrap grid for responsive layout.
 import styles from '../styles/home.module.css';
 import image from '../assets/pictures/fred_3.JPEG';
 
 export function Home() {
   return (
+    // Section id `home` allows navigation via `#home` anchors.
     <section id='home' className={`${styles.home} container`}>
       <div className="row align-items-center">
-        {/* Left column with text content */}
+        {/* Left column: textual introduction */}
         <div className="col-md-6">
           <div className={styles.content}>
             <h4>WELCOME TO FJK REAL ESTATE LTD., Brokerage</h4>
@@ -20,7 +22,8 @@ export function Home() {
             </p>
           </div>
         </div>
-        {/* Right column with an image */}
+
+        {/* Right column: profile image and contact info */}
         <div className="col-md-6">
           <div className={styles.image}>
             <img src={image} alt="programmer" className="img-fluid" />

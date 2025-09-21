@@ -1,3 +1,4 @@
+// About section: three-card layout describing company, broker and values.
 import styles from '../styles/about.module.css';
 import image_1 from '../assets/pictures/selling.jpg';
 import image_2 from '../assets/pictures/fred_3.JPEG';
@@ -8,6 +9,7 @@ export function About() {
     <section id='about' className={styles.aboutContainer}>
       <div className="container text-center">
         <div className={styles.cardsGrid}>
+          {/* Card 1: company info */}
           <div className={styles.card}>
             <img src={image_1} alt="" />
             <h2>Who we are?</h2>
@@ -23,6 +25,7 @@ export function About() {
             </div>
           </div>
 
+          {/* Card 2: broker profile */}
           <div className={styles.card}>
             <img src={image_2} alt="" />
             <h2>Fred Klonowski</h2>
@@ -40,6 +43,7 @@ export function About() {
             </div>
           </div>
 
+          {/* Card 3: values */}
           <div className={styles.card}>
             <img src={image_3} alt="" />
             <h2>Our values</h2>
