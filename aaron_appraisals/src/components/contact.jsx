@@ -2,7 +2,7 @@
 // form, replace the `formBox` placeholder with a controlled form and submit
 // to an API endpoint or third-party service (e.g., Formspree, Netlify Forms).
 import styles from '../styles/contact.module.css';
-import image from '../assets/pictures/fred_3.JPEG';
+import image from '../assets/pictures/fred_3.jpg';
 import logo from '../assets/pictures/fjk_logo.png';
 
 export function Contact() {

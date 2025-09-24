@@ -1,6 +1,6 @@
 // Home / Hero section: presentational. Uses Bootstrap grid for responsive layout.
 import styles from '../styles/home.module.css';
-import image from '../assets/pictures/fred_3.JPEG';
+import image from '../assets/pictures/fred_3.jpg';
 
 export function Home() {
   return (
