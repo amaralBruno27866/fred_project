@@ -1,7 +1,7 @@
 // About section: three-card layout describing company, broker and values.
 import styles from '../styles/about.module.css';
 import image_1 from '../assets/pictures/selling.jpg';
-import image_2 from '../assets/pictures/fred_3.JPEG';
+import image_2 from '../assets/pictures/fred_3.jpg';
 import image_3 from '../assets/pictures/evaluation.jpg';
 
 export function About() {
